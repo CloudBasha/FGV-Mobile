@@ -1,0 +1,35 @@
+{
+    "tenders" : "Tender",
+    "info" : "Hebahan",
+    "contactUs" : "Hubungi Kami",
+    "settings" : "Tetapan",
+    "favoriteTenders" : "Tender Kegemaran",
+    
+    "tenderOpeningDate" : "Tarikh Tender Dibuka",
+    "tenderClosingDate" : "Tarikh Tender Ditutup",
+    
+    "tenderDescription" : "Deskripsi Tender",
+    "tenderCategory" : "Kategori Tender",
+    "publishedDate" : "Tarikh Terbit di Portal",
+    "location" : "Lokasi/Ladang",
+    "minGrade" : "Gred Minima",
+    "maxGrade" : "Gred Maksima",
+    "siteVisiting" : "Lawatan Tapak / Taklimat",
+    "siteVisitingDate" : "Tarikh Lawatan Tapak",
+    "siteVisitingLocation" : "Lokasi Lawatan Tapak / Taklimat",
+    "tenderDocsPrice" : "Harga Jualan Naskhah Tender (RM)",
+    "tenderDocsStartDate" : "Tarikh dan Masa Dokumen Tender Mula Dijual",
+    "contactPerson" : "Pegawai Untuk dihubungi",
+    "tenderCalledCompany" : "Tender dipanggil oleh Syarikat",
+    "emailContactPerson" : "Emel Pegawai Untuk Dihubungi",
+    "telephoneNo" : "No. Telefon",
+    "attachment" : "Lampiran",
+    
+    "versionNumber" : "Nombor Version : ",
+    "aboutUs" : "Mengenai Kami",
+    "submitButton" : "Hantar",
+    
+    "noFavoriteTender" : "Tiada Tender Kegemaran",
+    
+    "language" : "Bahasa"
+}

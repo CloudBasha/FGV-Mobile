@@ -1,0 +1,37 @@
+{
+  "name": "FGV Procurement",
+  "private": true,
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.3.1"
+  },
+  "version": "3.9.5",
+  "authors": [
+    "Tharindu Gamage <tharindu.gamage@gmail.com>"
+  ],
+  "description": "FGV Procurement Mobile App on Ionic",
+  "main": "index.html",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngCordova": "~0.1.26-alpha",
+    "a0-angular-storage": "~0.0.15",
+    "lodash": "~4.13.1",
+    "angular-localization": "~1.2.1",
+    "DateJS": "datejs#~1.0.0-rc3",
+    "angular-messages": "~1.5.7"
+  }
+}

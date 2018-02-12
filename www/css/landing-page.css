@@ -1,0 +1,50 @@
+.formItem{
+width:300px;
+height:50px;
+font-size:23px;	
+}
+
+.tooltip {
+	align-items:flex-end;
+	position: absolute;
+      width: 10px;
+      height: 10px;
+      line-height: 10px;
+      padding: 7px;
+	  
+      font-size: 10px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      background: rgb(255, 0, 0);
+      border: 0px solid rgb(255, 255, 255);
+      border-radius: 30px;
+	  
+}
+
+.landingPageTable{
+margin-top: 4em;
+margin-left: 5%;
+width: 80%;
+}
+
+.landingPageBadges{
+position: absolute;
+background: red;
+border-radius: 15px;
+color: white;
+padding: 3px;
+font-size: 13px;    
+}
+
+.tableNames{
+margin-top: 25px;
+width: 105%;  
+}
+
+.tableNames2{
+width: 80%;
+}
+
+.noBorder{
+border: none;
+}

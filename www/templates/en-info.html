@@ -1,0 +1,23 @@
+<ion-view view-title="{{title}}">
+    <ion-content>
+        <ion-list>
+            <div ng-repeat="info in infoArray">
+              <ion-item ng-if="info.status == 'unread'" align="center" id="{{info.ows_ID}}" class="infoItem"
+                        ng-click="toggleGroup($index)"
+                        ng-class="{active: isGroupShown($index)}">
+                <b>{{info.ows_LinkTitle}}</b>
+              </ion-item>
+                
+              <ion-item ng-if="info.status == 'read'" align="center" id="{{info.ows_ID}}" class="readInfoItem"
+                        ng-click="toggleGroup($index)"
+                        ng-class="{active: isGroupShown($index)}">
+                <b>{{info.ows_LinkTitle}}</b>
+              </ion-item>
+              <ion-item ng-show="isGroupShown($index)" class="infoAnswer">
+                  <strong ng-bind-html="info.ows_CreatedDate" style="font-size: 12px;"></strong>
+                  <span ng-bind-html="info.ows_Details | hrefToJS"></span>
+              </ion-item>
+            </div>
+        </ion-list>
+    </ion-content>
+</ion-view>

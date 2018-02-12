@@ -1,0 +1,31 @@
+.pane{
+    background-image: url('../img/background-blurred.jpg');
+}
+
+
+.bar-stable .button.button-clear {
+color: white;
+}
+
+.item.activated{
+background: #FB7D14;    
+}
+
+.item p{
+white-space: normal;
+color: black;    
+margin-bottom: 15px; 
+}
+
+.item{
+border-color: white;
+}
+
+.bar.bar-stable .title {
+color: #fff;
+}
+
+ol, ul {
+list-style: disc;
+padding-left: 15px;
+}

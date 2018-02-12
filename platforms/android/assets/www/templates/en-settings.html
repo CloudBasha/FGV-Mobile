@@ -1,0 +1,18 @@
+<ion-view view-title="{{title}}">
+    <ion-content>
+        <div style="margin-top:50px; font-size: large" align="center">
+            <form style="margin-top:50px; color:#FFF">
+                <span  data-i18n="language.language"></span>
+                <select ng-model="settingsObj.language" id="languageSelect" ng-change="changeLanguage()" style="margin-top:50px; color:#000000">
+                    <option value="ms-MS" selected="true">Bahasa Malaysia</option>
+                    <option value="en-US">English</option>
+                </select>
+                <br>
+                <br>
+                
+                <span  data-i18n="language.versionNumber"></span><a id="versionNumber" style="color:white;">{{appVersion}}</a>
+            </form>
+
+        </div>
+    </ion-content>
+</ion-view>

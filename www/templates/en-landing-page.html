@@ -1,0 +1,30 @@
+<ion-view view-title="FGV Perolehan">
+    <ion-content>
+        <table align="center" class="landingPageTable" cellspacing="10px" cellpadding="0px" >
+            <tr>
+            <td align="center" ><ion-badge ng-show="tenderBadgeActive" class="landingPageBadges">{{unreadTenderCountEn}}</ion-badge><a ng-click="goToTenders()"><img src="img/icon_tenders_list.png" width="75px" height="75px" /> </a></td> 
+            <td align="center"><ion-badge ng-show="InfoBadgeActive" class="landingPageBadges">{{unreadInfoCountEn}}</ion-badge><a ng-click="goToInfo()"><img src="img/icon_info.png" width="75px" height="75px"/> </a></td>
+            </tr>
+
+            <tr>
+            <td align="center"> <p class="p tableNames" align="center" data-i18n="language.tenders"></p> </td> <td align="center"> <p class="p tableNames" align="center" data-i18n="language.info"></p> </td>
+            </tr>
+
+            <tr>
+            <td align="center"><a ng-click="goToContactUs()"><img src="img/icon_contact_us.png" width="75px" height="75px" style="margin-top: 5%;"/> </a></td> <td align="center"><a ng-click="goToSettings()"><img src="img/icon_settings.png" width="75px" height="75px" style="margin-top: 5%;"/> </a></td>
+            </tr>
+
+            <tr>
+            <td align="center"> <p class="p tableNames" align="center" data-i18n="language.contactUs"></p> </td> <td align="center"> <p class="p tableNames" align="center" data-i18n="language.settings"></p> </td>
+
+            </tr>
+
+            <tr>
+                <td align="center"><a ng-click="goToFavourites()"><img src="img/icon_favorites.png" width="75px" height="75px" style="margin-top: 5%;" /> </a></td>
+            </tr>
+            <tr>
+                <td align="center" class="tableNames2"> <p class="p tableNames" align="center" data-i18n="language.favoriteTenders"></p></td>
+            </tr>
+        </table >
+    </ion-content>
+</ion-view>

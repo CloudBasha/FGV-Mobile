@@ -1,0 +1,26 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/www/js/landingPage.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/lodash/vendor/backbone/test/view.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/lodash/vendor/firebug-lite/src/firebug-lite-debug.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/lodash/vendor/json-js/json2.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/www/js/tenderDetails.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/www/js/favorites.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/www/js/app.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/ngCordova/dist/ng-cordova.min.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/lodash/vendor/underscore/test/utility.js",
+        "jquery.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/lodash/vendor/underscore/underscore-min.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/build/intermediates/assets/debug/www/bower_components/lodash/vendor/underscore/test/chaining.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/plugins/ionic-plugin-keyboard/www/android/keyboard.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/lodash/vendor/underscore/test/functions.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/DateJS/build/date-en-US.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/DateJS/build/date-en-ZA.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/DateJS/build/date-en-ZW.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/DateJS/build/date-es-AR.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/ios/build/emulator/FGV Procurement.app/www/bower_components/DateJS/build/date-en-US.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/DateJS/build/date-es-BO.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/DateJS/build/date-es-CL.js",
+        "/Users/Lavalabs/Desktop/Git/FGV-Procurement-Ionic/platforms/android/assets/www/bower_components/DateJS/build/date-es-CO.js"
+    ]
+}

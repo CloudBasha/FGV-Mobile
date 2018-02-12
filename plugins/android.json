@@ -1,0 +1,64 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-app-version": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-badge": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-calendar": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-email-composer": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.lavalabs.fgvprocurement"
+        }
+    }
+}

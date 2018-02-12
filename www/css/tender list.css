@@ -1,0 +1,162 @@
+
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+
+.tender_detail_title {
+    font-family: "Times New Roman"!important;
+    font-size: 15px;
+	color:#FFFFFF
+}
+.tender_detail_title2{
+	font-family: "Times New Roman"!important;
+    font-size: 15px;
+	
+	color:#FFFFFF
+}
+.tender_detail_title3{
+	font-family: "Times New Roman"!important;
+    font-size: 12px!important;
+	margin:0px!important;
+	color:#F7981D!important;
+}
+.tender_detail_title4{
+	font-family: "Times New Roman"!important;
+    font-size: 12px!important;
+	margin:0px;
+	color:#0A0A0A!important;
+}
+.tender_item{
+border-collapse:separate; border-spacing:1em ; 	
+}
+.tendersDiv{
+	width:100%;	
+	margin-bottom: 10px;
+    white-space: normal;
+    padding: 0;
+}
+.imgButton{
+width:30px;
+height:30px;	
+align-self:center;
+align-content:center;
+}
+
+.unreadRedBackground{
+background : #DD0000;  
+color: white;
+padding: 15px;
+white-space: normal;
+font-family: "Times New Roman";
+}
+
+.unreadWhiteBackground{
+background : white;  
+color: black;
+padding: 10px 15px 5px 15px;
+white-space: normal;
+}
+
+.unreadWhiteBackgroundNoPadding{
+background : white;  
+color: black;
+padding: 0;
+white-space: normal;
+}
+
+.readBackground{
+background : #F7981D; 
+color: white;
+padding: 15px;
+white-space: normal;
+font-family: "Times New Roman";
+}
+
+
+
+.category-title {
+    width:90%;
+    padding:15px;
+	
+    display:inline-block;
+    border-bottom:1px solid #1a1a1a;
+    background:#FB7D14;
+    transition:all linear 0.15s;
+    /* Type */
+    font-size:1.200em;
+    color:#fff;
+}
+ 
+.category-title.active, .category-title:hover {
+    background:#FF831A;
+    /* Type */
+    text-decoration:none;
+}
+
+.tooltip {
+	position: absolute;
+      width: 10px;
+      height: 10px;
+      line-height: 10px;
+      padding: 10px;
+	  margin: -5px 0px 0 10px;
+      font-size: 10px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      background: rgb(255, 0, 0);
+      border: 0px solid rgb(255, 255, 255);
+      border-radius: 20px;
+      text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+      box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+}
+
+.toolTodayTip {
+    width: 50px;
+    height: 10px;
+    line-height: 5px;
+    padding: 1px;
+    margin: -5px 0px 0px 10px;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 255);
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+}
+.attachmentPhoto
+{
+	width:15px;
+	height:15px;	
+}
+
+/*===============Tablet=====================*/
+
+@media screen and (min-width: 600px) {
+
+.category-title {
+    width:90%;
+    padding:15px;
+	
+    display:inline-block;
+    border-bottom:1px solid #1a1a1a;
+    background:#FB7D14;
+    transition:all linear 0.15s;
+    /* Type */
+	width:100%;
+    font-size:1.700em;
+    color:#fff;
+	text-height:20px;
+}
+
+
+
+}

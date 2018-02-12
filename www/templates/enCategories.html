@@ -1,0 +1,12 @@
+<ion-view view-title="{{title}}">
+  <ion-content>
+      <ion-list>
+        <ion-item ng-repeat="category in groupedTenders2 | orderBy:'name'" class="categoriesDiv" ng-click="goToCategory(category.name)">
+            <div align="center" style="width: 100%;padding-left: 7px;padding-right: 7px;">
+                <span style="white-space: normal;">{{category.name}}</span>
+                <ion-badge ng-if="category.unread != '0'" class="categoryPageBadges">{{category.unread}}</ion-badge>
+            </div>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+</ion-view>

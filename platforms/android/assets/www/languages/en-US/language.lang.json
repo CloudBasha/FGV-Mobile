@@ -1,0 +1,36 @@
+{
+    "tenders" : "Tenders",
+    "info" : "Info",
+    "contactUs" : "Contact Us",
+    "settings" : "Settings",
+    "favoriteTenders" : "Favorite Tenders",
+    
+    "tenderOpeningDate" : "Tender Opening Date",
+    "tenderClosingDate" : "Tender Closing Date",
+    
+    "tenderDescription" : "Tender Description",
+    "tenderCategory" : "Tender Category",
+    "publishedDate" : "Publication Date on Portal",
+    "location" : "Location/Estate",
+    "minGrade" : "Minimum Grade",
+    "maxGrade" : "Maximum Grade",
+    "siteVisiting" : "Site Visit / Briefing",
+    "siteVisitingDate" : "Site Visit / Briefing Date",
+    "siteVisitingLocation" : "Site Visit / Briefing Location",
+    "tenderDocsPrice" : "Sale Price of Tender Documents (RM)",
+    "tenderDocsStartDate" : "Start Date and time of Sale of Tender Documents",
+    "contactPerson" : "Name of Contact Person",
+    "tenderCalledCompany" : "Tender called by (Company)",
+    "emailContactPerson" : "Email of Contact Person",
+    "telephoneNo" : "Telephone No",
+    "attachment" : "Attachment",
+    
+    "versionNumber" : "Version Number : ",
+    "aboutUs" : "About Us",
+    "submitButton" : "Submit",
+    
+    "noFavoriteTender" : "There are no Favorite Tenders",
+    
+    "language" : "Language"
+      
+}

@@ -1,0 +1,38 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left" width="100">
+    <ion-header-bar class="bar-sidebar">
+    </ion-header-bar>
+    <ion-content class="sideMenu">
+      <ion-list>
+        <ion-item class="menuItem" menu-close ng-click="goToTenders()">
+          <img src="img/icon_tenders_list.png" class="icons">
+        </ion-item>
+        <ion-item class="menuItem" menu-close ng-click="goToInfo()">
+          <img src="img/icon_info.png" class="icons">
+        </ion-item>
+        <ion-item class="menuItem" menu-close ng-click="goToSettings()">
+          <img src="img/icon_settings.png" class="icons"> 
+        </ion-item>
+        <ion-item class="menuItem" menu-close ng-click="goToContactUs()">
+          <img src="img/icon_contact_us.png" class="icons">
+        </ion-item>
+        <ion-item class="menuItem" menu-close ng-click="goToFavourites()">
+          <img src="img/icon_favorites.png" class="icons">
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

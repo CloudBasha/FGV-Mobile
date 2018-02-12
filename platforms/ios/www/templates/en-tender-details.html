@@ -1,0 +1,142 @@
+<ion-view view-title="{{title}}">
+    <ion-content>
+        <div id="detailsDiv" align="center">
+        <table cellpadding="0px" cellspacing="0px" style="width:100%;height:100px;">
+            <tr >
+                <td colspan="4" >
+                    <table bgcolor="#F7981D" class="tender_item" width="100%"  >	
+                        <tr>
+                            <td>
+                                <p id="tenderTitle" class="tender_detail_title" align="center"><span>{{paramsObject.ows_Title}}</span></p>
+                            </td>
+                        </tr> 
+                    </table> 
+               </td>
+            </tr>
+            <tr >
+                 <td colspan="4">
+                    <table bgcolor="#FFFFFF" class="tender_item" width="100%" height="50%" cellpadding="0px" cellspacing="0px">	
+                        <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.tenderDescription"></p> <p id="tenderDescription" class="tender_detail_title4" align="center" >{{paramsObject.ows_DeskripsiTender}}</p> 
+                            </td> 
+                       </tr> 
+                        <tr >
+                            <td >
+                             <p class="tender_detail_title3" align="center" data-i18n="language.tenderCategory"></p> <p id="tenderCategory" class="tender_detail_title4" align="center" >{{paramsObject.ows_KategoriTender}}</p> 
+                            </td> 
+                       </tr> 
+
+                       <tr >
+                            <td >
+                             <p class="tender_detail_title3" align="center" data-i18n="language.publishedDate"></p> <p id="tenderPubDate" class="tender_detail_title4" align="center" >{{paramsObject.ows_TarikhTerbitdiPortal}}</p> 
+                            </td> 
+                       </tr> 
+
+                        <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.tenderOpeningDate"></p> <p id="tenderOpeneningDate" class="tender_detail_title4" align="center" >{{paramsObject.ows_TarikhTenderDibuka}}</p> 
+                            </td> 
+                       </tr> 
+                       <tr>
+                            <td>
+                                <p class="tender_detail_title3" align="center" data-i18n="language.tenderClosingDate"></p><p id="tenderClosingDate" class="tender_detail_title4" align="center" >{{paramsObject.ows_TarikhTenderDitutup}}</p> 
+                           </td> 
+                       </tr>
+                       <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.location"></p> <p id="tenderLocation" class="tender_detail_title4" align="center" >{{paramsObject.ows_Lokasi_x002f_Ladang}}</p> 
+                            </td> 
+                       </tr> 
+
+
+                       <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.minGrade"></p> <p id="tenderMinimumGrade" class="tender_detail_title4" align="center" >{{paramsObject.ows_Gred_x003a_Gred}}</p> 
+                            </td> 
+                            <tr>
+                                <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.maxGrade"></p> <p id="tenderMaximumGrade" class="tender_detail_title4" align="center" >{{paramsObject.ows_TahapPendaftaranKategori}}</p> 
+                                </td> 
+                       </tr> 
+                       </tr> 
+                       <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.siteVisiting"></p> <p id="tenderSitesVisitBrief" class="tender_detail_title4" align="center" >{{paramsObject.ows_LawatanTapakTaklimat}}</p> 
+                            </td> 
+                       </tr>
+                       <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.siteVisitingDate"></p> <p id="tenderSitesVisitsDate" class="tender_detail_title4" align="center" >{{paramsObject.ows_TarikhLawatanTapak}}</p> 
+                            </td> 
+                       </tr> 
+
+                       <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.siteVisitingLocation"></p> <p id="tenderSitesVisitLocation" class="tender_detail_title4" align="center" >{{paramsObject.ows_LokasiLawatanTapakTaklimat}}</p> 
+                            </td> 
+                       </tr>
+
+                       <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.tenderDocsPrice"></p> <p id="tenderSellingPrice" class="tender_detail_title4" align="center" >{{paramsObject.ows_HargaJualanNaskahTender}}</p> 
+                            </td> 
+                       </tr>
+                       <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.tenderDocsStartDate"></p> <p id="tenderStartSellingDate" class="tender_detail_title4" align="center" >{{paramsObject.ows_TarikhdanMasaPenjualanDokumenTen}}</p> 
+                            </td> 
+                       </tr>
+
+                       <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.contactPerson"></p> <p id="tenderContact" class="tender_detail_title4" align="center" >{{paramsObject.ows_PegawaiUntukDihubungi}}</p> 
+                            </td> 
+                       </tr>
+
+                       <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.tenderCalledCompany"></p> <p id="tenderCalledByCompany" class="tender_detail_title4" align="center" >{{paramsObject.ows_TenderDipanggilolehSyarikat}}</p> 
+                            </td> 
+                       </tr>
+
+
+
+                       <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.emailContactPerson"></p> <p id="tenderEmail" class="tender_detail_title4" align="center" >{{paramsObject.ows_EmelPegawaiUntukDihubungi}}</p> 
+                            </td> 
+                       </tr>
+                       <tr>
+                            <td>
+                             <p class="tender_detail_title3" align="center" data-i18n="language.telephoneNo"></p> <p id="tenderTelephone" class="tender_detail_title4" align="center" >{{paramsObject.ows_NoTelefon}}</p> 
+                            </td> 
+                       </tr>
+                       <tr>
+                            <td ng-click="openPDF()">
+                             <p class="tender_detail_title3" align="center" data-i18n="language.attachment"></p> <p id="tenderAttatchment" align="center" ><img class="attachmentPhoto" src="img/clip-512.png"/> {{paramsObject.attachmentFileName}}</p>  
+                            </td> 
+                       </tr>
+
+                    </table> 
+                 </td>
+          </tr> 
+<!--
+          <tr>
+             <td align="center" bgcolor="#99cc00" width="25%"> <a id="mailtoDestination" href="mailto:"+arr[i].ows_TenderEmail+"?subject=FGVTender" data-rel="external"><img  class="imgButton" align="center" src="img/icon_message.png"/> </a></td>
+              <td align="center" bgcolor="#33CCCC" width="25%"><img id="favourites" class="imgButton"></td>
+             <td align="center" bgcolor="#cc6600" width="25%"><img id="imgCalender" class="imgButton" src="img/icon_calender.png" onClick="addEvent('2015-02-26 11:00:00')"/></td>
+              <td align="center" bgcolor="#2196F3" width="25%"><img id="imgShare" class="imgButton" src="img/share.png"/></td>
+            </tr>
+-->
+        </table>
+        <div class="row" style="padding: 0;">
+              <div style="background:#99cc00" class="col" ng-click="shareReadTenderViaEmail($index)"><img  class="imgButton" align="center" src="img/icon_message.png"/></div>
+              <div style="background:#33CCCC" ng-if="paramsObject.favorite == 'false'" class="col" ng-click="setReadFavorite($index)"><img  class="imgButton" align="center" src="img/icon_set_favorite_dimmed.png"/></div>
+              <div style="background:#33CCCC" ng-if="paramsObject.favorite == 'true'" class="col" ng-click="setReadFavorite($index)"><img  class="imgButton" align="center" src="img/icon_set_favorite.png"/></div>
+              <div style="background:#cc6600" class="col" ng-click="addReadTenderEvent($index)"><img  class="imgButton" align="center" src="img/icon_calender.png"/></div>
+              <div style="background:#2196F3" class="col" ng-click="shareReadTender($index)"><img  class="imgButton" align="center" src="img/share.png"/></div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,22 @@
+/*Category Page*/
+
+.categoriesDiv{
+    background:#FB7D14;  
+    color: white;
+    white-space: normal;
+}
+
+.categoryPageBadges{
+position: absolute;
+background: red;
+border-radius: 15px;
+color: white;
+padding: 3px;
+font-size: 13px;
+width: 26px;
+margin-left: 5px;
+}
+
+#tenderPageCell{
+width: 150px;    
+}

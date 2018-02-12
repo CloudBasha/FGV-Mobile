@@ -1,0 +1,32 @@
+<ion-view view-title="{{title}}">
+    <ion-content>
+        <div id="feedbackDiv" class="myDiv">
+            <p align="center" class="contactAbout">
+                Please contact our service center:<br/>
+                +603 2859 1249 / 1254 / 1256 / 1236<br/> 
+                FAX:+603 2859 1919<br/>
+                <a id="emailLabel" ng-href="mailto:{{emailAddress}}">{{emailAddress}}</a>
+             </p>  
+<!--             <table width="100%" >-->
+            <div>
+                 <form name="feedbackForm1" id="feed-back" ng-submit="submitForm()"> 
+                    <input id="textBoxName" class="textBox" type="text"  ng-model="feedbackForm.name" placeholder="Name" border="0px" name="name" required></input>
+                    <div ng-messages="feedbackForm1.name.$error">
+                        <p class="help-block" ng-message="required">* Mandatory Field</p>
+                    </div>
+                    <input id="textBoxEmail" class="textBox" type="email" ng-model="feedbackForm.emailAddress" placeholder="Email" border="0px" name="emailAddress" ng-pattern="/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/" required></input>
+                    <div ng-messages="feedbackForm1.emailAddress.$error">
+                        <p class="help-block" ng-message="pattern">* Invalid Email Address</p>
+                        <p class="help-block" ng-message="required">* Mandatory Field</p>
+                    </div>
+                    <textarea id="textBoxContent" rows="5" form="feed-back"  placeholder="Feedback" ng-model="feedbackForm.content" class="textBox blackText" border="0px" name="content" style="height:100%; width:100%" required></textarea>
+                    <div ng-messages="feedbackForm1.content.$error">
+                        <p class="help-block" ng-message="required">* Mandatory Field</p>
+                    </div>
+                    <button ng-disabled="feedbackForm1.$invalid" width="100%" border="0px" height="" class="button button-block submitButton" data-i18n="language.submitButton"></button>
+                 </form>
+            </div>
+<!--             </table>-->
+        </div>
+    </ion-content>
+</ion-view>

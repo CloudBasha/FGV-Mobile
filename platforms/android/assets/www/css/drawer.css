@@ -1,0 +1,54 @@
+
+
+.title{
+	font-size:20px;
+	color:#FFFFFF;	
+	align-self:center;
+	margin:10px;
+	margin-bottom:20px;
+	
+}
+.drawerDiv{
+	background:#FB7D14;
+	padding:5px;
+	margin:0px;
+	position:fixed;
+	top:0px;
+	width:100%;
+		
+}
+.drawerItem{
+	width:50px;
+	height:50px;
+	margin-bottom:30px;
+	//border-bottom: 1px inset #ffffff ;
+	
+}
+
+.drawerDiv.clone{
+    border:1px solid yellow;
+}
+    
+.bar.bar-stable {				
+    background: #FB7D14;
+}
+
+.bar-header {				
+    background: #FB7D14;
+}
+
+.sideMenu{				
+    background: #FB7D14;
+}
+
+.menuItem{
+position: relative;
+z-index: 2;
+padding: 16px 25px 16px 25px;
+background-color: #FB7D14;
+color: white;    
+}
+
+.icons{
+    width: 50px;    
+}

@@ -1,0 +1,131 @@
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+	
+}
+
+.infoItem{
+white-space: normal;
+background-color: #DD0000;
+color: white; 
+font-size: 13px;
+font-family: "Times New Roman";
+}
+
+
+.infoItem.active{
+white-space: normal;
+background-color: #FB7D14;
+color: white;    
+font-size: 13px;
+font-family: "Times New Roman";
+}
+
+
+.infoItem.activated{
+white-space: normal;
+background-color: #DD0000;
+color: white;   
+font-size: 13px;
+font-family: "Times New Roman";
+}
+
+.readInfoItem{
+white-space: normal;
+background-color: #FB7D14;
+color: white;   
+font-size: 13px;
+font-family: "Times New Roman";
+}
+
+.readInfoItem.active{
+white-space: normal;
+background-color: #FB7D14;
+color: white;    
+font-size: 13px;
+font-family: "Times New Roman";
+}
+
+.infoAnswer{
+white-space: normal;
+color: black;
+font-size: 90%;
+text-align: justify;
+font-family: "Times New Roman";
+}
+ 
+.accordion {
+    overflow:hidden;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;
+	width:100%;
+	padding:5px;
+	align-self:center;
+	align-content:center;
+	vertical-align:middle;
+	margin-top:50px;
+
+}
+ 
+/*----- Section Titles -----*/
+.accordion-section-title {
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    border-bottom:1px solid #1a1a1a;
+    background:#FB7D14;
+    transition:all linear 0.15s;
+    /* Type */
+    font-size:1.210em;
+	text-height:15px;
+    color:#fff;
+}
+ 
+.accordion-section-title.active, .accordion-section-title:hover {
+    background:#FF831A;
+    /* Type */
+    text-decoration:none;
+}
+ 
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+ 
+/*----- Section Content -----*/
+.accordion-section-content {
+    padding:15px;
+    display:none;
+	background:#f7f7f7;
+}
+
+.template{
+display:none;	
+}
+
+/*====================Tablet version ============================*/
+
+@media screen and (min-width: 600px) {
+
+.accordion-section-title {
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    border-bottom:1px solid #1a1a1a;
+    background:#FB7D14;
+    transition:all linear 0.15s;
+    /* Type */
+    font-size:1.400em;
+	text-height:15px;
+    color:#fff;
+	
+}
+ 
+.accordion-section-title.active, .accordion-section-title:hover {
+    background:#FB7D14;
+    /* Type */
+    text-decoration:none;
+}
+ 
+
+}

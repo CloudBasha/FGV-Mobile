@@ -1,0 +1,60 @@
+<ion-view view-title="{{title}}">
+    <ion-content>
+        <div style="padding:10px;">
+            <ion-list>
+                <ion-item ng-repeat="unreadTender in unreadTendersArray" class="tendersDiv noBorder" >
+                    <ion-item style="padding: 0;" ng-click="goToUnreadTenderDetails($index)">
+                         <ion-item align="center" class="unreadRedBackground">
+                            <span>
+                                {{unreadTender.ows_Title}}
+                            </span>
+                        </ion-item>
+                        <ion-item align="center" class="unreadWhiteBackground">
+                            <p class="tender_detail_title3" align="center" data-i18n="language.tenderOpeningDate"></p> <p id="tenderOpeneningDate" class="tender_detail_title4" align="center" >{{unreadTender.ows_TarikhTenderDibuka}}</p> 
+                        </ion-item>
+                        <ion-item align="center" class="unreadWhiteBackground">
+                            <p class="tender_detail_title3" align="center" data-i18n="language.tenderClosingDate"></p> <p id="tenderClosingDate" class="tender_detail_title4" align="center" >{{unreadTender.ows_TarikhTenderDitutup}}</p> 
+                        </ion-item>
+
+                    </ion-item>
+                    <ion-item align="center" class="unreadWhiteBackgroundNoPadding" >
+                        <div class="row" style="padding: 0;">
+                          <div style="background:#99cc00" class="col" ng-click="shareUnreadTenderViaEmail($index)"><img  class="imgButton" align="center" src="img/icon_message.png"/></div>
+                          <div style="background:#33CCCC" ng-if="unreadTender.favorite == 'false'" class="col" ng-click="setUnreadFavorite($index)"><img class="imgButton" align="center" src="img/icon_set_favorite_dimmed.png"/></div>
+                          <div style="background:#33CCCC" ng-if="unreadTender.favorite == 'true'" class="col" ng-click="setUnreadFavorite($index)"><img class="imgButton" align="center" src="img/icon_set_favorite.png"/></div>
+                          <div style="background:#cc6600" class="col" ng-click="addUnreadTenderEvent($index)"><img  class="imgButton" align="center" src="img/icon_calender.png"/></div>
+                          <div style="background:#2196F3" class="col" ng-click="shareUnreadTender($index)"><img  class="imgButton" align="center" src="img/share.png"/></div>
+                        </div>
+                    </ion-item>
+                </ion-item>
+            </ion-list>
+
+            <ion-list>
+                <ion-item ng-repeat="readTender in readTendersArray" class="tendersDiv noBorder">
+                    <ion-item style="padding: 0;" ng-click="goToReadTenderDetails($index)">
+                         <ion-item align="center" class="readBackground">
+                             <span>
+                                {{readTender.ows_Title}}
+                            </span>
+                        </ion-item>
+                        <ion-item align="center" class="unreadWhiteBackground">
+                            <p class="tender_detail_title3" align="center" data-i18n="language.tenderClosingDate"></p> <p id="tenderClosingDate" class="tender_detail_title4" align="center" >{{readTender.ows_TarikhTenderDitutup}}</p> 
+                        </ion-item>
+
+                    </ion-item>
+                    <ion-item align="center" class="unreadWhiteBackgroundNoPadding" >
+                        <div class="row" style="padding: 0;">
+                          <div style="background:#99cc00" class="col" ng-click="shareReadTenderViaEmail($index)"><img  class="imgButton" align="center" src="img/icon_message.png"/></div>
+                          <div style="background:#33CCCC" ng-if="readTender.favorite == 'false'" class="col" ng-click="setReadFavorite($index)"><img  class="imgButton" align="center" src="img/icon_set_favorite_dimmed.png"/></div>
+                          <div style="background:#33CCCC" ng-if="readTender.favorite == 'true'" class="col" ng-click="setReadFavorite($index)"><img  class="imgButton" align="center" src="img/icon_set_favorite.png"/></div>
+                          <div style="background:#cc6600" class="col" ng-click="addReadTenderEvent($index)"><img  class="imgButton" align="center" src="img/icon_calender.png"/></div>
+                          <div style="background:#2196F3" class="col" ng-click="shareReadTender($index)"><img  class="imgButton" align="center" src="img/share.png"/></div>
+                        </div>
+                    </ion-item>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>
+        
+   
